@@ -1,0 +1,115 @@
+.bg-gray {
+  background-color: #f0f3f5;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-white {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+.section-padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.rounded-panel {
+  border-radius: 24px;
+  background-color: #fcfcfd;
+}
+.text-blue {
+  color: #4a69e8;
+}
+.subtitle {
+  color: #4a69e8;
+  font-size: 18px;
+}
+.text-gray {
+  color: #8599ad;
+}
+.text-gray2 {
+  color: #667f99;
+}
+.text-blak {
+  color: #141a1f;
+}
+.side-width {
+  width: 300px;
+}
+.btn-bottom {
+  display: inline-block; /*按鈕是行內區塊，可以排列。*/
+
+  /*padding: 1.25rem rem;   → 內距（讓按鈕有高度、寬度）。 */
+  padding: 12px 0;
+  padding-left: 20px;
+  padding-right: 12px;
+
+  font-weight: 400;
+
+  font-size: 1rem; /*  字體大小。 */
+
+  border: 1px solid transparent; /* → 有邊框（顏色由變化類決定）。 */
+
+  border-radius: 1rem; /* → 圓角。 */
+
+  cursor: pointer; /* → 滑鼠移到時變成手指樣式。 */
+
+  transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  /* → 有 hover/active 的過渡效果。 */
+}
+.btn-white {
+  color: #141a1f; /* → 文字顏色白色。 */
+
+  background-color: #fcfcfd; /* → 背景藍色（Bootstrap 預設主色）。 */
+
+  border-color: #d1d9e1; /*  → 邊框藍色。 */
+
+  /*  :hover {
+    background-color: #0b5ed7;
+  }  → 滑鼠移過去變深藍。 */
+
+  /* :active {
+    background-color: #0a58ca;
+  }  → 點擊時再深一點。  */
+
+  /*   :disabled {
+    background-color: #0d6efd80;
+  } → 禁用時變半透明。  */
+}
+.btn-black {
+  color: #fff; /* → 文字顏色白色。 */
+
+  background-color: #141a1f; /* → 背景藍色（Bootstrap 預設主色）。 */
+
+  /* border-color: #0d6efd;   → 邊框藍色。 */
+
+  /*  :hover {
+    background-color: #0b5ed7;
+  } → 滑鼠移過去變深藍。 
+
+  :active {
+    background-color: #0a58ca;
+  }  → 點擊時再深一點。 
+
+  :disabled {
+    background-color: #0d6efd80;
+  } → 禁用時變半透明。  */
+}
+.bi {
+  margin-left: 4px;
+}
+.head-image {
+  width: 120px; /* 調整寬度 */
+  height: 120px; /* 調整高度 */
+  object-fit: cover; /* 確保圖片不變形 */
+}
+.form-width {
+  width: calc(100% / 12 * 8);
+}
+.form-space {
+  text-align: center;
+  margin-bottom: 0;
+}
+.under-button {
+  display: flex;
+  justify-content: center; /* 水平置中 */
+  align-items: center; /* 垂直置中 */
+}
